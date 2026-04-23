@@ -267,6 +267,9 @@ section { padding: 6rem 0; min-height: 80vh; display: flex; flex-direction: colu
 
 .floating-badge i { font-size: 1.5rem; color: var(--accent-purple); }
 
+.badge-1 { top: -5%; right: 180px; animation-delay: 0s; }
+.badge-2 { bottom: 10%; left: -20px; animation-delay: 3s; }
+.badge-3 { top: 70%; right: -80px; animation-delay: 1.5s; }
 
 @keyframes float {
     0%, 100% { transform: translateY(0); }
